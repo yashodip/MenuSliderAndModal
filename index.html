@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Menu Slider and Modal</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo" id="logo">
+        <img
+          src="https://randomuser.me/api/portraits/men/85.jpg"
+          alt="user photo"
+        />
+      </div>
+      <ul class="links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+    </nav>
+    <header>
+      <button class="toggle" id="toggle">
+        <i class="fa fa-2x fa-bars"></i>
+      </button>
+      <h2>My Portfolio</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias,
+        architecto?
+      </p>
+      <button class="btn cta-btn" id="open">Sign up</button>
+    </header>
+    <main class="container">
+      <h2>Portfolio</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur sed
+        eligendi totam fugit debitis. Illum maiores et vero nulla suscipit
+        assumenda hic. Necessitatibus consectetur, tempore corrupti ipsum quis
+        ex doloribus!
+      </p>
+      <h2>More details</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex voluptas
+        deleniti qui ut non eius id exercitationem commodi sit, impedit quas
+        corrupti minima placeat ratione ullam natus nam illum tempora?
+      </p>
+      <h2>Benefits</h2>
+      <ul>
+        <li>Best Quality</li>
+        <li>Less Weight</li>
+        <li>More Productive</li>
+      </ul>
+    </main>
+    <!-- Modal -->
+    <section class="modal-container" id="modal">
+      <div class="modal">
+        <div class="modal-header">
+          <h3>Sign Up</h3>
+          <button class="close-btn" id="close">
+            <i class="fa fa-times"></i>
+          </button>
+        </div>
+        <div class="modal-content">
+          <form action="#" class="modal-form">
+            <div>
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-input"
+                placeholder="Enter a name"
+              />
+            </div>
+            <div>
+              <label for="name">email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form-input"
+                placeholder="Enter a email"
+              />
+            </div>
+            <div>
+              <label for="phone">Phone</label>
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                class="form-input"
+                placeholder="Enter a phone"
+              />
+            </div>
+            <div>
+              <button class="btn btn-submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
